@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-20",
+  "upstream_sha": "48df3591750ea9d0d08f58fb9ce154605e61dfa2",
+  "api_images": 3,
+  "api_videos": 1,
+  "full_app_ui_verified": false,
+  "original_optional_adapter_replay": "passed",
+  "images": 3,
+  "negative_checks": 3,
+  "ao_registered": false
+}

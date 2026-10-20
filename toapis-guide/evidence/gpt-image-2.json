@@ -1,0 +1,37 @@
+{
+  "model": "gpt-image-2",
+  "kind": "image",
+  "status": "completed",
+  "parameters": {
+    "size": "1536x864"
+  },
+  "cost": {
+    "model": "gpt-image-2",
+    "billing_status": "unavailable",
+    "actual_cost_usd": null,
+    "actual_credits": null
+  },
+  "catalog_rate": "0.015",
+  "catalog_unit": "request",
+  "project": "OpenShorts",
+  "date": "2026-10-20",
+  "file": "examples/gpt-image-2.png",
+  "prompt": "An original cinematic educational-video still: a handcrafted miniature wooden windmill on a grassy island beside a clear stream, morning dew, small reeds and stones, soft sunrise, precise tactile textures, friendly nature-documentary aesthetic, clear single composition, 16:9 landscape, no text, no logos, no watermark.",
+  "validation_scope": "Live ToAPIs API and generated configuration contract; upstream application UI and native certification not exercised",
+  "width": 1696,
+  "height": 960,
+  "model_batch_log": {
+    "count": 5,
+    "total_recorded_usd": "0.075",
+    "distinct_recorded_usd": [
+      "0.015"
+    ],
+    "phases": [
+      "unknown"
+    ],
+    "binding": "model/time-window batch; task association not assumed",
+    "net_cost_confirmed": false
+  },
+  "case_price_usd": "0.015",
+  "case_price_basis": "Exact configured per-request rate; individual task settlement unavailable"
+}

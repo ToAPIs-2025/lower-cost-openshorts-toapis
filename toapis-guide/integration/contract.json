@@ -1,0 +1,28 @@
+{
+  "upstream": "jnMetaCode/openshorts",
+  "commit": "48df3591750ea9d0d08f58fb9ce154605e61dfa2",
+  "generation_origin": "https://toapis.com",
+  "auth": "Authorization: Bearer TOAPIS_API_KEY",
+  "image": {
+    "create": "POST /v1/images/generations",
+    "query": "GET /v1/images/generations/{id}",
+    "result": "result.data[0].url",
+    "models": [
+      "gpt-image-2-vip",
+      "gpt-image-2",
+      "gpt-image-2.5-flare"
+    ]
+  },
+  "video": {
+    "create": "POST /v1/videos/generations",
+    "query": "GET /v1/videos/generations/{id}",
+    "result": "result.data[0].url",
+    "model": "seedance-2",
+    "duration": 4,
+    "resolution": "480p",
+    "generate_audio": false,
+    "first_frame": "upload local PNG via /v1/uploads/images, then image_with_roles=[{url,role:first_frame}]"
+  },
+  "native_ui_verified": false,
+  "template_or_bridge_requires_local_validation": true
+}

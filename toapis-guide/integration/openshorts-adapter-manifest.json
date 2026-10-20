@@ -1,0 +1,17 @@
+{
+  "apiVersion": 1,
+  "id": "toapis-community-images",
+  "name": "ToAPIs community images",
+  "description": "Optional image asset adapter via an authenticated loopback bridge. Not registered in OpenShorts/AO by this guide.",
+  "transport": "http",
+  "capabilities": [
+    "background",
+    "character-sheet",
+    "character",
+    "decoration"
+  ],
+  "requiresEnv": [
+    "BRIDGE_TOKEN"
+  ],
+  "documentation": "../README.md"
+}

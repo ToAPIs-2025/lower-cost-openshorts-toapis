@@ -1,0 +1,11 @@
+{
+  "kind": "video",
+  "model": "seedance-2",
+  "prompt": "The miniature windmill turns slowly while the clear stream flows past. A gentle camera push-in reveals dew and reeds moving in a light breeze. Preserve the original diorama and wheel geometry. One continuous shot, no speech, no text.",
+  "duration": 4,
+  "resolution": "480p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "first_frame_file": "examples/gpt-image-2-vip.png",
+  "run_id": "1020-openshorts-seedance-2"
+}
